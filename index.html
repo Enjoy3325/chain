@@ -212,7 +212,7 @@
 				Lomas - Virreyes, Lomas De Chapultepec V Secc., Miguel Hidalgo, 11000 Miguel Hidalgo, CDMX, Mexico
 			</p>
 
-			<form class="footer-form">
+			<form class="footer-form" method="post">
 				<div class="footer-inputs-wrapper">
 					<label for="name">
 						<input class="footer-form-input" type="text" name="name" id="name" placeholder="Name"
@@ -236,7 +236,7 @@
 				</div>
 
 				<div class="footer-form-btn-wrapper">
-					<button type="submit" class="footer-form-btn">
+					<button type="submit" class="footer-form-btn" id="myBtn" disabled>
 						Send
 						<svg class="footer-form-btn-icon" width="10" height="10">
 							<use href="./images/icons/footer/arrow-right.svg#symbol-id"></use>
@@ -262,6 +262,13 @@
 			<p class="text footer-copyright">
 				Copyright &#169; 2024 Chain App Dev Company. All Rights Reserved.
 			</p>
+		</div>
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<button type="button" class="close">&times;</button>
+				<span>Yor Message has been sent!</span>
+			</div>
+
 		</div>
 	</footer>
 </body>

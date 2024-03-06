@@ -2,7 +2,7 @@ const sections = document.querySelectorAll('section');
 
 const lazyLoad = targets => {
   const options = {
-    rootMargin: '100px',
+    rootMargin: '80px',
     threshold: 0.2,
   };
 
